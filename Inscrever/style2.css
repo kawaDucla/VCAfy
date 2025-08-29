@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: black;
+  height: 100%;
+  color: white;
+  
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.linha {
+    width: 80%;                
+    max-width:425px;          
+    height: 2px;
+    background-color: #444;
+    margin: 20px auto;
+    position: relative;
+    margin-top: 3vh;
+  }
+  
+  .linha-vermelha {
+    position: relative;
+    margin-top: 3vh;
+    top: 0;
+    left: 0;
+    width: 30%;                
+    height: 100%;
+    background-color: red;
+  }
+.etapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #777575;
+}
+  
